@@ -21,16 +21,19 @@ CineMatch is a responsive movie discovery web application built with React and T
 - **Responsive Design** — Browse the application on different screen sizes.
 - **Local Persistence** — Keep your favorites saved in your browser.
 
+
 ## 🛠️ Tech Stack
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- shadcn/ui and Radix UI
-- React Router
-- Lucide React
-- LocalStorage
+| Category | Technologies |
+| --- | --- |
+| **Framework** | React 18, TypeScript |
+| **Build Tool** | Vite |
+| **Styling** | Tailwind CSS |
+| **UI Components** | shadcn/ui, Radix UI |
+| **Routing** | React Router |
+| **Icons** | Lucide React |
+| **Data Persistence** | LocalStorage |
+| **Deployment** | Vercel |
 
 ## 🚀 Getting Started
 
