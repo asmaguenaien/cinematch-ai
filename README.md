@@ -1,4 +1,3 @@
-<div align="center">
 # CineMatch 🎬
 
 **Discover movies. Explore genres. Save your favorites.**
