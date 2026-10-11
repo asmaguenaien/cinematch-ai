@@ -1,43 +1,46 @@
 <div align="center">
+# CineMatch 🎬
 
-# 🎬 CinéMatch AI
+**Discover movies. Explore genres. Save your favorites.**
 
-**Découvrez le film qui correspond à vos goûts.**
-
-Application web de découverte de films : recherche instantanée, filtres par genre, fiches détaillées et favoris.
-
-[![Démo en ligne]((https://cinematch-ai-delta-five.vercel.app/))
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://cinematch-ai-delta-five.vercel.app)
 [![CI](https://github.com/asmaguenaien/cinematch-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/asmaguenaien/cinematch-ai/actions/workflows/ci.yml)
-![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-</div>
+CineMatch is a responsive movie discovery web application built with React and TypeScript. It allows users to explore a curated movie catalog, search for films, filter by genre, view movie details, and maintain a personal favorites list.
 
-<!-- Ajoutez ici une capture d'écran de la démo :
-![Aperçu](./docs/screenshot.png) -->
+🔗 **Live Demo:** [cinematch-ai-delta-five.vercel.app](https://cinematch-ai-delta-five.vercel.app)
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- 🔎 **Recherche instantanée** par titre, réalisateur ou genre
-- 🏷️ **Filtres par genre** (Action, Drame, Science-Fiction, Thriller, Comédie…)
-- 🎞️ **Carrousels thématiques** : Tendances, Nouveautés, Action, Drame, Comédie, Science-Fiction
-- ⭐ **Film à la une** et fiches détaillées (synopsis, note, réalisateur)
-- ❤️ **Favoris** sauvegardés dans le navigateur (`localStorage`)
-- 📱 **Interface responsive**, thème sombre
+- **Movie Discovery** — Browse a curated collection of films.
+- **Search** — Find movies by title, director, or genre.
+- **Genre Filtering** — Explore movies by category.
+- **Movie Details** — View film descriptions, release years, ratings, and directors.
+- **Favorites** — Add and remove movies from your personal favorites list.
+- **Movie Collections** — Explore trending, recent, and genre-based sections.
+- **Responsive Design** — Browse the application on different screen sizes.
+- **Local Persistence** — Keep your favorites saved in your browser.
 
-## 🛠️ Stack technique
+## 🛠️ Tech Stack
 
-| Domaine | Outils |
-| --- | --- |
-| Framework | React 18 + TypeScript |
-| Build | Vite |
-| UI | Tailwind CSS, shadcn/ui (Radix UI), Lucide |
-| Routing / données | React Router, TanStack Query |
-| Qualité | ESLint, Vitest, GitHub Actions |
-| Déploiement | Vercel |
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui and Radix UI
+- React Router
+- Lucide React
+- LocalStorage
 
-## 🚀 Lancer le projet en local
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
 
 ```bash
 git clone https://github.com/asmaguenaien/cinematch-ai.git
@@ -46,42 +49,38 @@ npm install
 npm run dev
 ```
 
-L'application est disponible sur http://localhost:8080.
+Open the local URL displayed in your terminal to use the application.
 
-### Scripts
+### Production Build
 
-| Commande | Description |
-| --- | --- |
-| `npm run dev` | Serveur de développement |
-| `npm run build` | Build de production |
-| `npm run preview` | Prévisualiser le build |
-| `npm run lint` | Analyse ESLint |
-| `npm test` | Tests unitaires (Vitest) |
-
-## 📁 Structure
-
-```
-src/
-├── components/   # Composants UI (MovieCard, MovieModal, carrousels…)
-├── data/         # Catalogue de films (movies.ts)
-├── hooks/        # Hooks personnalisés
-├── pages/        # Pages (Index, NotFound)
-└── lib/          # Utilitaires
+```bash
+npm run build
+npm run preview
 ```
 
-## 🗺️ Feuille de route
+## 🗺️ Project Roadmap
 
-- [ ] Brancher l'API TMDB pour un catalogue complet et à jour
-- [ ] Recommandations personnalisées par IA à partir des favoris
-- [ ] Comptes utilisateurs et synchronisation des favoris
-- [ ] Bandes-annonces et plateformes de streaming
+- [ ] Integrate a movie database API.
+- [ ] Build a personalized recommendation engine.
+- [ ] Add advanced sorting and filtering.
+- [ ] Add automated tests for key user interactions.
+- [ ] Improve accessibility and loading performance.
 
-## 📄 Licence
+## 📸 Screenshots
 
-Distribué sous licence MIT. Voir [LICENSE](./LICENSE).
+Screenshots of the homepage, movie details, and search experience will be added here.
 
-## 👤 Auteure
+## 👩‍💻 Author
 
-**Asma Guenaien** — [GitHub](https://github.com/asmaguenaien)
+**Asma Guenaien**
+Software Development | Web Technologies
 
-*Les affiches et métadonnées de films proviennent de [TMDB](https://www.themoviedb.org/). Ce produit utilise l'API TMDB mais n'est ni approuvé ni certifié par TMDB.*
+- GitHub: [@asmaguenaien](https://github.com/asmaguenaien)
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+*Movie posters and metadata are provided by [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB.*
