@@ -6,7 +6,7 @@
 
 Application web de découverte de films : recherche instantanée, filtres par genre, fiches détaillées et favoris.
 
-[![Démo en ligne](https://img.shields.io/badge/D%C3%A9mo-en%20ligne-black?style=for-the-badge&logo=vercel)](https://VOTRE-URL.vercel.app)
+[![Démo en ligne](https://img.shields.io/badge/D%C3%A9mo-en%20ligne-black?style=for-the-badge&logo=vercel)]([https://VOTRE-URL.vercel.app](https://cinematch-ai-delta-five.vercel.app/))
 [![CI](https://github.com/asmaguenaien/cinematch-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/asmaguenaien/cinematch-ai/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
