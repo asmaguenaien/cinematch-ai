@@ -67,8 +67,7 @@ npm run preview
 
 ## 📸 Screenshots
 
-Screenshots of the homepage, movie details, and search experience will be added here.
-
+![CineMatch homepage](./public/screenshot.png)
 ## 👩‍💻 Author
 
 **Asma Guenaien**
